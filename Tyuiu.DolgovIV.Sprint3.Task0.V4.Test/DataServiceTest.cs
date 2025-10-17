@@ -11,9 +11,9 @@ namespace Tyuiu.DolgovIV.Sprint3.Task0.V4.Test
             DataService ds = new DataService();
 
             int startValue = 1;
-            int stopValue = 5;
+            int stopValue = 7;
 
-            Assert.AreEqual(15.499, ds.GetMultiplySeries(startValue, stopValue));
+            Assert.AreEqual(6482.439, ds.GetMultiplySeries(startValue, stopValue));
         }
     }
 }

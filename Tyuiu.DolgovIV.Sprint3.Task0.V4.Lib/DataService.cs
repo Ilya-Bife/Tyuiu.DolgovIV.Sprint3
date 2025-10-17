@@ -6,10 +6,10 @@ namespace Tyuiu.DolgovIV.Sprint3.Task0.V4.Lib
     {
         public double GetMultiplySeries(int startValue, int stopValue)
         {
-            double res = 0;
+            double res = 1;
             for (int i = startValue; i <= stopValue; i++)
             {
-                res += Math.Sin(0.1) + i;
+                res *= Math.Sin(0.1) + i;
             }
             return Math.Round(res, 3);
         }
