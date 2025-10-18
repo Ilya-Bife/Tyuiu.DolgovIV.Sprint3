@@ -6,12 +6,12 @@ namespace Tyuiu.DolgovIV.Sprint3.Task3.V10.Lib
     {
         public string DeleteCharInString(string value, char item)
         {
-            string res = value;
+            string res = "";
             foreach (var item1 in value)
             {
-                if (item1 == item)
+                if (item1 != item)
                 {
-                    res = res.Replace(item1, ' ');
+                    res += item1;
                 }
             }
             return res;

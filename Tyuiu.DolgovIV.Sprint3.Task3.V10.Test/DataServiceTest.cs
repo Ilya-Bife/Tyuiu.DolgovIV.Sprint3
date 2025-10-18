@@ -14,7 +14,7 @@ namespace Tyuiu.DolgovIV.Sprint3.Task3.V10.Test
 
             char val = 'p';
 
-            Assert.AreEqual(ds.DeleteCharInString(str, val), "gdf  f vf  t  ");
+            Assert.AreEqual(ds.DeleteCharInString(str, val), "gdff vft ");
 
         }
     }
