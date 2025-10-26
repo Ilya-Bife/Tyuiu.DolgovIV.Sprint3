@@ -9,9 +9,9 @@ internal class Program
         Console.Title = "Спринт #3 | Выполнил: Долгов И. В. | АСОиУб-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #3                                                               *");
-        Console.WriteLine("* Тема: Использование операторов continue и break в циклах                *");
-        Console.WriteLine("* Задание #4                                                              *");
-        Console.WriteLine("* Вариант #16                                                             *");
+        Console.WriteLine("* Тема: Обработка целочисленной информации                                *");
+        Console.WriteLine("* Задание #6                                                              *");
+        Console.WriteLine("* Вариант #7                                                             *");
         Console.WriteLine("* Выполнил: Долгов Илья Витальевич | АСОиУб-25-1                          *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
